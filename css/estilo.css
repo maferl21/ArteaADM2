@@ -1,0 +1,99 @@
+/* -----------------------CABECERA--------------------- */
+.Tcabecera ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #1A1915;
+    color:white;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.Tcabecera li {
+    float: left;
+}
+
+.Tcabecera .dropdown{
+  float: right;
+  font-size: 40px;
+  padding-top:10px;
+  padding-right:80px;
+}
+
+.Tcabecera li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    position:relative;
+
+}
+
+
+.Tcabecera .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#tituloA{
+  padding-left: 40px;
+}
+/* ------------------------------------------------------------------------ */
+/* ............................fOOTER............................ */
+.copyright{
+  font-size: 18px;
+  align-content: center;
+  background-color:#1A1915;
+  padding: 20px;
+  color: white;
+}
+
+/*footer{*/
+/*   position: absolute;*/
+/*   bottom: 0;*/
+/*   width: 100%;*/
+/*}*/
+
+footer{
+	width: auto;
+	height: auto;
+	font-size: 80%;
+	padding: 0.625em 0.9em 1.4em;
+	background-color:#1A1915;
+	text-align: center;
+	min-height: 2em;
+}
+.imagen #logo{
+  padding-left: 40%;
+}
+/*------------------------------------*/
+.tablaHistorial{
+    width:55%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Tahoma !important;
+    margin-left: 320px;
+}
+.tdB,th{
+   border: 1px solid #e0e0e0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
